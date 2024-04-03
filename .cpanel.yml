@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/xoy4axthgbh7/public_html/
+    - export DEPLOYPATH=/home/x0dwyhwm65qw/public_html/
     - /bin/cp -R ../invitacion-circe $DEPLOYPATH
