@@ -1,3 +1,15 @@
+@font-face {
+    font-family: titular;
+    src: url("fonts/LilitaOne-Regular.ttf");
+}
+
+h1.main-title {
+    font-family: titular;
+    font-size: 8rem;
+    color: darksalmon;
+}
+
+
 .background-general {
     background-color: #ffe1b0;
 }
@@ -27,5 +39,7 @@
 
 .bg-image {
     background-image: url('../img/carousel/carousel-background.png');
-    object-fit: cover;
+    align-items: center;
+    object-fit: fill;
+    object-position: 50% 50%;
 }
