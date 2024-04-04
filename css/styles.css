@@ -3,15 +3,31 @@
     src: url("fonts/LilitaOne-Regular.ttf");
 }
 
-h1.main-title {
+* {
+    box-sizing: content-box;
+}
+
+body {
     font-family: titular;
-    font-size: 8rem;
+}
+
+h1.main-title {
+    font-size: 3rem;
     color: darksalmon;
 }
 
+h3 {
+    font-size: 2rem;
+    color: darksalmon;
+}
 
 .background-general {
     background-color: #ffe1b0;
+}
+
+p.question-mark {
+    color: salmon;
+    font-weight: lighter;
 }
 
 .carousel-item{
@@ -38,8 +54,9 @@ h1.main-title {
 }
 
 .bg-image {
-    background-image: url('../img/carousel/carousel-background.png');
-    align-items: center;
-    object-fit: fill;
-    object-position: 50% 50%;
+    z-index: 99;
+    background-image: url('../img/carousel/carousel-background.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: max-content;
 }
