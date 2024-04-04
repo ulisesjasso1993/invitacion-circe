@@ -56,7 +56,11 @@ p.question-mark {
 .bg-image {
     z-index: 99;
     background-image: url('../img/carousel/carousel-background.webp');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     max-height: max-content;
+}
+
+footer {
+    height: 10%;
 }
