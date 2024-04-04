@@ -23,6 +23,7 @@ h3 {
 
 .background-general {
     background-color: #ffe1b0;
+    max-width: 100%;
 }
 
 p.question-mark {
